@@ -19,7 +19,7 @@
 }
 
 .medium-font {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .small-font {
@@ -48,10 +48,8 @@ a:active {
 /* ---layout--- */
 
 body {
-  /* background-color: #050609;
-  color: #FFFAFF; */
-  color: #050609;
-  background-color: #FFFFFF;
+  background-color: #050609;
+  color: #FFFAFF;
 }
 
 .flex-container {
