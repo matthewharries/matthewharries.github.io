@@ -31,7 +31,8 @@ a:hover {
   cursor: pointer;
 }
 
-a, a:visited,
+a,
+a:visited,
 a:active {
   text-decoration: none;
   color: inherit;
