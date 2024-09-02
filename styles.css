@@ -48,8 +48,10 @@ a:active {
 /* ---layout--- */
 
 body {
-  background-color: #050609;
-  color: #FFFAFF;
+  /* background-color: #050609;
+  color: #FFFAFF; */
+  color: #050609;
+  background-color: #FFFFFF;
 }
 
 .flex-container {
