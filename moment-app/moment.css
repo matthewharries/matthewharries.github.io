@@ -1,0 +1,94 @@
+/* Moment's own type and Mono palette: Newsreader + Hanken Grotesk, ink on white. */
+
+:root {
+  --ink: #1A1A1A;
+  --bg: #FFFFFF;
+  --muted: #6B6B6B;
+  --hair: #E6E6E4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #ECEAE4;
+    --bg: #171717;
+    --muted: #A3A19C;
+    --hair: #2E2E2C;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 72px 24px 96px;
+}
+
+h1,
+h2 {
+  font-family: "Newsreader", serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 1.1;
+  margin: 0 0 8px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 48px 0 8px;
+}
+
+.tagline {
+  font-family: "Newsreader", serif;
+  font-style: italic;
+  font-size: 22px;
+  color: var(--muted);
+  margin: 0 0 40px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 24px;
+}
+
+p,
+li {
+  margin: 0 0 12px;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--muted);
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--hair);
+  margin: 48px 0 24px;
+}
+
+footer {
+  font-size: 14px;
+  color: var(--muted);
+}
